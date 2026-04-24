@@ -1,0 +1,1314 @@
+INFO 2026-03-27 11:14:01,337 autoreload Watching for file changes with StatReloader
+WARNING 2026-03-27 12:48:58,826 log Unauthorized: /api/system/dashboard/overview/
+WARNING 2026-03-27 12:48:58,924 log Unauthorized: /api/system/dashboard/score_distribution/
+WARNING 2026-03-27 12:48:59,170 log Unauthorized: /api/system/dashboard/overview/
+WARNING 2026-03-27 12:48:59,353 log Unauthorized: /api/system/dashboard/score_distribution/
+INFO 2026-03-27 13:10:03,530 autoreload C:\Python312\Lib\site-packages\django\contrib\admin\actions.py changed, reloading.
+INFO 2026-03-27 14:24:13,032 autoreload Watching for file changes with StatReloader
+INFO 2026-04-14 17:04:45,044 autoreload Watching for file changes with StatReloader
+INFO 2026-04-14 18:39:54,423 autoreload E:\毕设\基于机器学习的高考志愿智能推荐平台\gaokao_zhiyuan\backend\apps\recommendation\views.py changed, reloading.
+INFO 2026-04-14 18:39:55,898 autoreload Watching for file changes with StatReloader
+INFO 2026-04-14 18:40:02,976 autoreload E:\毕设\基于机器学习的高考志愿智能推荐平台\gaokao_zhiyuan\backend\apps\recommendation\views.py changed, reloading.
+INFO 2026-04-14 18:40:04,299 autoreload Watching for file changes with StatReloader
+INFO 2026-04-14 18:43:54,057 autoreload E:\毕设\基于机器学习的高考志愿智能推荐平台\gaokao_zhiyuan\backend\apps\crawler\views.py changed, reloading.
+INFO 2026-04-14 18:43:55,335 autoreload Watching for file changes with StatReloader
+INFO 2026-04-21 10:02:43,338 autoreload Watching for file changes with StatReloader
+INFO 2026-04-21 10:06:01,831 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\crawler\spider.py changed, reloading.
+INFO 2026-04-21 10:06:04,171 autoreload Watching for file changes with StatReloader
+INFO 2026-04-21 10:09:54,667 autoreload Watching for file changes with StatReloader
+WARNING 2026-04-21 10:10:12,136 log Unauthorized: /api/system/dashboard/overview/
+WARNING 2026-04-21 10:10:12,166 log Unauthorized: /api/system/dashboard/score_distribution/
+WARNING 2026-04-21 10:16:06,969 log Bad Request: /api/crawler/tasks/4/stop/
+INFO 2026-04-21 10:18:04,009 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\crawler\spider.py changed, reloading.
+INFO 2026-04-21 10:18:05,454 autoreload Watching for file changes with StatReloader
+INFO 2026-04-21 10:18:50,242 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\crawler\spider.py changed, reloading.
+INFO 2026-04-21 10:18:51,709 autoreload Watching for file changes with StatReloader
+WARNING 2026-04-21 10:21:32,981 log Bad Request: /api/crawler/tasks/3/stop/
+WARNING 2026-04-21 10:25:06,049 log Unauthorized: /api/users/auth/login/
+INFO 2026-04-21 10:33:03,152 autoreload Watching for file changes with StatReloader
+INFO 2026-04-21 12:22:22,203 autoreload Watching for file changes with StatReloader
+WARNING 2026-04-21 12:26:00,353 log Bad Request: /api/users/manage/
+INFO 2026-04-21 12:48:47,676 autoreload Watching for file changes with StatReloader
+INFO 2026-04-21 13:01:47,481 autoreload Watching for file changes with StatReloader
+INFO 2026-04-21 13:57:31,834 autoreload Watching for file changes with StatReloader
+INFO 2026-04-21 14:06:44,791 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\users\views.py changed, reloading.
+INFO 2026-04-21 14:06:46,553 autoreload Watching for file changes with StatReloader
+INFO 2026-04-21 14:06:48,899 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\users\views.py changed, reloading.
+INFO 2026-04-21 14:06:50,419 autoreload Watching for file changes with StatReloader
+INFO 2026-04-21 14:07:51,853 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\users\views.py changed, reloading.
+INFO 2026-04-21 14:07:53,306 autoreload Watching for file changes with StatReloader
+INFO 2026-04-21 14:08:35,228 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\users\views.py changed, reloading.
+INFO 2026-04-21 14:08:36,729 autoreload Watching for file changes with StatReloader
+INFO 2026-04-21 14:09:01,226 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\users\views.py changed, reloading.
+INFO 2026-04-21 14:09:02,677 autoreload Watching for file changes with StatReloader
+INFO 2026-04-21 14:09:52,679 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\universities\views.py changed, reloading.
+INFO 2026-04-21 14:09:53,892 autoreload Watching for file changes with StatReloader
+INFO 2026-04-21 14:10:08,911 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\universities\views.py changed, reloading.
+INFO 2026-04-21 14:10:10,781 autoreload Watching for file changes with StatReloader
+INFO 2026-04-21 14:10:19,858 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\universities\views.py changed, reloading.
+INFO 2026-04-21 14:10:21,309 autoreload Watching for file changes with StatReloader
+INFO 2026-04-21 14:10:45,251 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\universities\views.py changed, reloading.
+INFO 2026-04-21 14:10:46,911 autoreload Watching for file changes with StatReloader
+INFO 2026-04-21 14:10:59,024 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\universities\views.py changed, reloading.
+INFO 2026-04-21 14:11:00,309 autoreload Watching for file changes with StatReloader
+INFO 2026-04-21 16:53:59,063 autoreload Watching for file changes with StatReloader
+INFO 2026-04-21 18:31:47,833 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\views.py changed, reloading.
+INFO 2026-04-21 18:31:49,943 autoreload Watching for file changes with StatReloader
+INFO 2026-04-21 18:32:26,472 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\views.py changed, reloading.
+INFO 2026-04-21 18:32:28,758 autoreload Watching for file changes with StatReloader
+INFO 2026-04-21 18:32:37,897 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\views.py changed, reloading.
+INFO 2026-04-21 18:32:40,274 autoreload Watching for file changes with StatReloader
+INFO 2026-04-21 18:37:37,440 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\views.py changed, reloading.
+INFO 2026-04-21 18:37:40,136 autoreload Watching for file changes with StatReloader
+INFO 2026-04-21 18:38:49,192 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\views.py changed, reloading.
+INFO 2026-04-21 18:38:51,222 autoreload Watching for file changes with StatReloader
+INFO 2026-04-21 18:44:57,557 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\engine.py changed, reloading.
+INFO 2026-04-21 18:44:59,099 autoreload Watching for file changes with StatReloader
+INFO 2026-04-21 18:46:25,499 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\views.py changed, reloading.
+INFO 2026-04-21 18:46:26,902 autoreload Watching for file changes with StatReloader
+INFO 2026-04-22 16:39:05,941 autoreload Watching for file changes with StatReloader
+INFO 2026-04-22 16:49:38,777 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\universities\views.py changed, reloading.
+INFO 2026-04-22 16:49:41,860 autoreload Watching for file changes with StatReloader
+WARNING 2026-04-22 16:59:00,032 log Unauthorized: /api/universities/list/
+WARNING 2026-04-22 16:59:00,034 log Unauthorized: /api/universities/list/provinces/
+WARNING 2026-04-22 17:03:48,656 log Not Found: /api/universities/26/score_trends/
+WARNING 2026-04-22 17:03:50,611 log Not Found: /api/universities/26/score_trends/
+WARNING 2026-04-22 17:05:02,815 log Not Found: /api/universities/26/score_trends/
+WARNING 2026-04-22 17:06:24,931 log Not Found: /api/universities/26/score_trends/
+INFO 2026-04-22 17:10:51,892 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\universities\views.py changed, reloading.
+INFO 2026-04-22 17:10:54,488 autoreload Watching for file changes with StatReloader
+WARNING 2026-04-22 17:11:04,781 log Not Found: /api/universities/list/26/score_trends/
+WARNING 2026-04-22 17:11:07,728 log Not Found: /api/universities/list/26/score_trends/
+WARNING 2026-04-22 17:11:09,047 log Not Found: /api/universities/list/26/score_trends/
+INFO 2026-04-22 17:12:26,730 autoreload Watching for file changes with StatReloader
+WARNING 2026-04-22 17:13:44,916 log Not Found: /api/universities/list/26/score_trends/
+INFO 2026-04-22 17:18:40,254 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\universities\views.py changed, reloading.
+INFO 2026-04-22 17:18:42,512 autoreload Watching for file changes with StatReloader
+INFO 2026-04-22 17:24:39,781 autoreload Watching for file changes with StatReloader
+WARNING 2026-04-22 17:25:07,556 log Not Found: /api/universities/list/26/score_trends/
+INFO 2026-04-22 17:35:36,004 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\universities\views.py changed, reloading.
+INFO 2026-04-22 17:35:37,943 autoreload Watching for file changes with StatReloader
+INFO 2026-04-22 17:36:13,603 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\universities\views.py changed, reloading.
+INFO 2026-04-22 17:36:15,717 autoreload Watching for file changes with StatReloader
+INFO 2026-04-22 17:36:52,102 autoreload Watching for file changes with StatReloader
+WARNING 2026-04-22 17:37:03,289 log Not Found: /api/universities/list/26/score_trends/
+WARNING 2026-04-22 17:37:03,943 log Not Found: /api/universities/list/26/score_trends/
+WARNING 2026-04-22 17:37:04,269 log Not Found: /api/universities/list/26/score_trends/
+WARNING 2026-04-22 17:37:11,059 log Not Found: /api/universities/list/33/score_trends/
+WARNING 2026-04-22 17:37:12,059 log Not Found: /api/universities/list/33/score_trends/
+WARNING 2026-04-22 17:37:13,070 log Not Found: /api/universities/list/33/score_trends/
+WARNING 2026-04-22 17:37:13,327 log Not Found: /api/universities/list/33/score_trends/
+WARNING 2026-04-22 17:37:13,633 log Not Found: /api/universities/list/33/score_trends/
+WARNING 2026-04-22 17:37:16,273 log Not Found: /api/universities/list/30/score_trends/
+INFO 2026-04-22 17:39:38,981 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\universities\views.py changed, reloading.
+INFO 2026-04-22 17:39:42,056 autoreload Watching for file changes with StatReloader
+WARNING 2026-04-22 17:50:24,139 log Not Found: /api/universities/list/26/score_trends/
+WARNING 2026-04-22 17:50:46,000 log Not Found: /api/universities/list/70/score_trends/
+WARNING 2026-04-22 17:50:48,766 log Not Found: /api/universities/list/71/score_trends/
+WARNING 2026-04-22 17:53:25,152 log Not Found: /api/universities/list/26/score_trends/
+WARNING 2026-04-22 17:53:54,376 log Not Found: /api/universities/list/26/score_trends/
+WARNING 2026-04-22 18:01:38,494 log Not Found: /api/universities/list/26/score_trends/
+INFO 2026-04-22 18:09:33,399 autoreload Watching for file changes with StatReloader
+INFO 2026-04-23 17:54:29,214 autoreload Watching for file changes with StatReloader
+WARNING 2026-04-23 17:55:10,157 log Unauthorized: /api/system/dashboard/overview/
+WARNING 2026-04-23 17:55:10,197 log Unauthorized: /api/system/dashboard/score_distribution/
+WARNING 2026-04-23 17:55:41,873 log Not Found: /api/universities/list/
+WARNING 2026-04-23 17:55:43,337 log Not Found: /api/universities/list/
+WARNING 2026-04-23 17:55:44,156 log Not Found: /api/universities/list/
+WARNING 2026-04-23 17:55:45,326 log Not Found: /api/universities/list/
+WARNING 2026-04-23 17:55:49,840 log Not Found: /api/universities/list/
+WARNING 2026-04-23 17:55:51,504 log Not Found: /api/universities/list/
+WARNING 2026-04-23 17:55:52,300 log Not Found: /api/universities/list/
+WARNING 2026-04-23 18:05:08,604 log Not Found: /api/universities/majors/
+WARNING 2026-04-23 18:05:10,756 log Not Found: /api/universities/majors/
+WARNING 2026-04-23 18:05:12,326 log Not Found: /api/universities/majors/
+WARNING 2026-04-23 18:05:18,712 log Not Found: /api/universities/majors/
+WARNING 2026-04-23 18:05:20,102 log Not Found: /api/universities/majors/
+WARNING 2026-04-23 18:05:20,644 log Not Found: /api/universities/majors/
+INFO 2026-04-23 19:18:58,619 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\universities\views.py changed, reloading.
+INFO 2026-04-23 19:19:01,575 autoreload Watching for file changes with StatReloader
+INFO 2026-04-23 19:19:20,215 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\universities\views.py changed, reloading.
+INFO 2026-04-23 19:19:22,647 autoreload Watching for file changes with StatReloader
+INFO 2026-04-23 19:19:34,920 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\universities\views.py changed, reloading.
+INFO 2026-04-23 19:19:37,523 autoreload Watching for file changes with StatReloader
+INFO 2026-04-23 19:19:54,177 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\universities\views.py changed, reloading.
+INFO 2026-04-23 19:19:56,360 autoreload Watching for file changes with StatReloader
+INFO 2026-04-23 19:20:29,019 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\universities\serializers.py changed, reloading.
+INFO 2026-04-23 19:20:32,093 autoreload Watching for file changes with StatReloader
+INFO 2026-04-23 19:21:14,698 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\universities\serializers.py changed, reloading.
+INFO 2026-04-23 19:21:17,937 autoreload Watching for file changes with StatReloader
+INFO 2026-04-23 19:25:34,534 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\universities\views.py changed, reloading.
+INFO 2026-04-23 19:25:37,011 autoreload Watching for file changes with StatReloader
+WARNING 2026-04-23 19:39:04,158 log Not Found: /api/universities/info/26/
+WARNING 2026-04-23 19:39:05,885 log Not Found: /api/universities/info/26/
+WARNING 2026-04-23 19:39:11,659 log Not Found: /api/universities/info/26/
+WARNING 2026-04-23 19:40:31,301 log Not Found: /api/universities/info/26/
+WARNING 2026-04-23 19:40:56,488 log Not Found: /api/universities/info/28/
+WARNING 2026-04-23 19:45:00,657 log Bad Request: /api/universities/list/26/
+WARNING 2026-04-23 19:45:01,744 log Bad Request: /api/universities/list/26/
+WARNING 2026-04-23 19:45:16,552 log Bad Request: /api/universities/list/26/
+INFO 2026-04-23 19:54:44,935 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\universities\serializers.py changed, reloading.
+INFO 2026-04-23 19:54:47,819 autoreload Watching for file changes with StatReloader
+INFO 2026-04-23 19:55:58,825 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\universities\views.py changed, reloading.
+INFO 2026-04-23 19:56:01,256 autoreload Watching for file changes with StatReloader
+INFO 2026-04-23 21:11:54,007 autoreload Watching for file changes with StatReloader
+INFO 2026-04-23 21:11:54,007 autoreload Watching for file changes with StatReloader
+INFO 2026-04-23 21:27:30,288 autoreload Watching for file changes with StatReloader
+INFO 2026-04-23 22:32:45,349 autoreload Watching for file changes with StatReloader
+INFO 2026-04-23 23:05:41,937 autoreload Watching for file changes with StatReloader
+INFO 2026-04-23 23:43:55,288 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\volunteer\views.py changed, reloading.
+INFO 2026-04-23 23:43:57,874 autoreload Watching for file changes with StatReloader
+ERROR 2026-04-23 23:43:59,949 log Internal Server Error: /api/volunteer/forms/
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\mixins.py", line 42, in list
+    serializer = self.get_serializer(page, many=True)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\generics.py", line 112, in get_serializer
+    serializer_class = self.get_serializer_class()
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\generics.py", line 126, in get_serializer_class
+    assert self.serializer_class is not None, (
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'VolunteerFormViewSet' should either include a `serializer_class` attribute, or override the `get_serializer_class()` method.
+INFO 2026-04-23 23:49:56,024 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\volunteer\views.py changed, reloading.
+INFO 2026-04-23 23:49:58,862 autoreload Watching for file changes with StatReloader
+INFO 2026-04-23 23:50:14,625 autoreload Watching for file changes with StatReloader
+WARNING 2026-04-23 23:50:17,660 log Not Found: /
+WARNING 2026-04-23 23:50:18,088 log Not Found: /favicon.ico
+INFO 2026-04-24 11:11:10,682 autoreload Watching for file changes with StatReloader
+INFO 2026-04-24 11:21:47,771 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\engine.py changed, reloading.
+INFO 2026-04-24 11:21:50,048 autoreload Watching for file changes with StatReloader
+INFO 2026-04-24 11:22:10,324 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\engine.py changed, reloading.
+INFO 2026-04-24 11:22:12,133 autoreload Watching for file changes with StatReloader
+INFO 2026-04-24 11:23:14,494 autoreload Watching for file changes with StatReloader
+INFO 2026-04-24 11:36:28,669 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\engine.py changed, reloading.
+INFO 2026-04-24 11:36:30,428 autoreload Watching for file changes with StatReloader
+ERROR 2026-04-24 11:36:41,583 log Internal Server Error: /api/recommendation/recommend/smart_match/
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\views.py", line 63, in smart_match
+    recommendations = get_recommendations(
+        score=data['score'],
+    ...<3 lines>...
+        interest_majors=data.get('interest_majors', '')
+    )
+  File "C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\engine.py", line 56, in get_recommendations
+    raise ValueError(f"系统资料库中暂未收录【{province}】近年的【{subject_type}】录取资料，请联系管理员。")
+ValueError: 系统资料库中暂未收录【广西】近年的【物理类】录取资料，请联系管理员。
+ERROR 2026-04-24 11:36:42,919 log Internal Server Error: /api/recommendation/recommend/smart_match/
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\views.py", line 63, in smart_match
+    recommendations = get_recommendations(
+        score=data['score'],
+    ...<3 lines>...
+        interest_majors=data.get('interest_majors', '')
+    )
+  File "C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\engine.py", line 56, in get_recommendations
+    raise ValueError(f"系统资料库中暂未收录【{province}】近年的【{subject_type}】录取资料，请联系管理员。")
+ValueError: 系统资料库中暂未收录【广西】近年的【物理类】录取资料，请联系管理员。
+ERROR 2026-04-24 11:36:55,876 log Internal Server Error: /api/recommendation/recommend/smart_match/
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\views.py", line 63, in smart_match
+    recommendations = get_recommendations(
+        score=data['score'],
+    ...<3 lines>...
+        interest_majors=data.get('interest_majors', '')
+    )
+  File "C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\engine.py", line 56, in get_recommendations
+    raise ValueError(f"系统资料库中暂未收录【{province}】近年的【{subject_type}】录取资料，请联系管理员。")
+ValueError: 系统资料库中暂未收录【广西】近年的【物理类】录取资料，请联系管理员。
+ERROR 2026-04-24 11:37:21,665 log Internal Server Error: /api/recommendation/recommend/smart_match/
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\views.py", line 63, in smart_match
+    recommendations = get_recommendations(
+        score=data['score'],
+    ...<3 lines>...
+        interest_majors=data.get('interest_majors', '')
+    )
+  File "C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\engine.py", line 56, in get_recommendations
+    raise ValueError(f"系统资料库中暂未收录【{province}】近年的【{subject_type}】录取资料，请联系管理员。")
+ValueError: 系统资料库中暂未收录【广西】近年的【物理类】录取资料，请联系管理员。
+ERROR 2026-04-24 11:37:30,810 log Internal Server Error: /api/recommendation/recommend/smart_match/
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\views.py", line 63, in smart_match
+    recommendations = get_recommendations(
+        score=data['score'],
+    ...<3 lines>...
+        interest_majors=data.get('interest_majors', '')
+    )
+  File "C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\engine.py", line 56, in get_recommendations
+    raise ValueError(f"系统资料库中暂未收录【{province}】近年的【{subject_type}】录取资料，请联系管理员。")
+ValueError: 系统资料库中暂未收录【广西】近年的【物理类】录取资料，请联系管理员。
+ERROR 2026-04-24 11:37:41,803 log Internal Server Error: /api/recommendation/recommend/smart_match/
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\views.py", line 63, in smart_match
+    recommendations = get_recommendations(
+        score=data['score'],
+    ...<3 lines>...
+        interest_majors=data.get('interest_majors', '')
+    )
+  File "C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\engine.py", line 56, in get_recommendations
+    raise ValueError(f"系统资料库中暂未收录【{province}】近年的【{subject_type}】录取资料，请联系管理员。")
+ValueError: 系统资料库中暂未收录【广西】近年的【物理类】录取资料，请联系管理员。
+INFO 2026-04-24 11:40:05,626 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\views.py changed, reloading.
+INFO 2026-04-24 11:40:07,676 autoreload Watching for file changes with StatReloader
+INFO 2026-04-24 11:40:30,524 autoreload Watching for file changes with StatReloader
+WARNING 2026-04-24 11:40:45,873 log Bad Request: /api/recommendation/recommend/smart_match/
+WARNING 2026-04-24 11:40:49,957 log Bad Request: /api/recommendation/recommend/smart_match/
+WARNING 2026-04-24 11:44:12,940 log Bad Request: /api/recommendation/recommend/smart_match/
+WARNING 2026-04-24 11:44:16,501 log Bad Request: /api/recommendation/recommend/smart_match/
+INFO 2026-04-24 11:45:14,788 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\engine.py changed, reloading.
+INFO 2026-04-24 11:45:16,539 autoreload Watching for file changes with StatReloader
+WARNING 2026-04-24 11:45:20,766 log Bad Request: /api/recommendation/recommend/smart_match/
+WARNING 2026-04-24 11:45:25,714 log Bad Request: /api/recommendation/recommend/smart_match/
+WARNING 2026-04-24 11:46:32,847 log Bad Request: /api/recommendation/recommend/smart_match/
+WARNING 2026-04-24 11:51:16,630 log Bad Request: /api/recommendation/recommend/smart_match/
+WARNING 2026-04-24 11:51:21,235 log Bad Request: /api/recommendation/recommend/smart_match/
+WARNING 2026-04-24 11:51:23,452 log Bad Request: /api/recommendation/recommend/smart_match/
+WARNING 2026-04-24 11:51:27,707 log Bad Request: /api/recommendation/recommend/smart_match/
+WARNING 2026-04-24 11:51:33,339 log Bad Request: /api/recommendation/recommend/smart_match/
+WARNING 2026-04-24 11:51:35,316 log Bad Request: /api/recommendation/recommend/smart_match/
+WARNING 2026-04-24 11:55:59,284 log Bad Request: /api/recommendation/recommend/smart_match/
+INFO 2026-04-24 11:57:24,644 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\engine.py changed, reloading.
+INFO 2026-04-24 11:57:26,406 autoreload Watching for file changes with StatReloader
+INFO 2026-04-24 11:58:36,708 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\engine.py changed, reloading.
+INFO 2026-04-24 11:58:38,372 autoreload Watching for file changes with StatReloader
+INFO 2026-04-24 11:59:19,298 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\engine.py changed, reloading.
+INFO 2026-04-24 11:59:20,981 autoreload Watching for file changes with StatReloader
+INFO 2026-04-24 11:59:47,081 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\engine.py changed, reloading.
+INFO 2026-04-24 11:59:48,923 autoreload Watching for file changes with StatReloader
+INFO 2026-04-24 12:00:06,519 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\engine.py changed, reloading.
+INFO 2026-04-24 12:00:08,058 autoreload Watching for file changes with StatReloader
+INFO 2026-04-24 12:00:42,331 autoreload Watching for file changes with StatReloader
+WARNING 2026-04-24 12:00:57,533 log Bad Request: /api/recommendation/recommend/smart_match/
+WARNING 2026-04-24 12:03:25,462 log Bad Request: /api/recommendation/recommend/smart_match/
+WARNING 2026-04-24 12:03:28,089 log Bad Request: /api/recommendation/recommend/smart_match/
+WARNING 2026-04-24 12:03:31,226 log Bad Request: /api/recommendation/recommend/smart_match/
+WARNING 2026-04-24 12:03:38,624 log Bad Request: /api/recommendation/recommend/smart_match/
+INFO 2026-04-24 12:07:32,782 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\engine.py changed, reloading.
+INFO 2026-04-24 12:07:34,617 autoreload Watching for file changes with StatReloader
+INFO 2026-04-24 12:07:50,278 autoreload Watching for file changes with StatReloader
+WARNING 2026-04-24 12:08:24,242 log Bad Request: /api/recommendation/recommend/smart_match/
+WARNING 2026-04-24 12:08:36,851 log Bad Request: /api/recommendation/recommend/smart_match/
+WARNING 2026-04-24 12:09:01,637 log Bad Request: /api/recommendation/recommend/smart_match/
+INFO 2026-04-24 12:09:33,878 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\engine.py changed, reloading.
+INFO 2026-04-24 12:09:35,493 autoreload Watching for file changes with StatReloader
+WARNING 2026-04-24 12:10:54,144 log Bad Request: /api/recommendation/recommend/smart_match/
+INFO 2026-04-24 12:24:51,737 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\engine.py changed, reloading.
+INFO 2026-04-24 12:24:53,500 autoreload Watching for file changes with StatReloader
+INFO 2026-04-24 12:25:00,750 autoreload Watching for file changes with StatReloader
+INFO 2026-04-24 12:29:22,669 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\engine.py changed, reloading.
+INFO 2026-04-24 12:29:24,243 autoreload Watching for file changes with StatReloader
+INFO 2026-04-24 13:01:03,617 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\volunteer\views.py changed, reloading.
+INFO 2026-04-24 13:01:05,473 autoreload Watching for file changes with StatReloader
+INFO 2026-04-24 13:02:16,942 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\volunteer\views.py changed, reloading.
+INFO 2026-04-24 13:02:18,424 autoreload Watching for file changes with StatReloader
+INFO 2026-04-24 13:02:52,079 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\volunteer\views.py changed, reloading.
+INFO 2026-04-24 13:02:53,471 autoreload Watching for file changes with StatReloader
+INFO 2026-04-24 13:04:08,304 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\volunteer\views.py changed, reloading.
+INFO 2026-04-24 13:04:09,987 autoreload Watching for file changes with StatReloader
+INFO 2026-04-24 13:13:14,617 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\volunteer\views.py changed, reloading.
+INFO 2026-04-24 13:13:16,457 autoreload Watching for file changes with StatReloader
+WARNING 2026-04-24 13:20:47,506 log Not Found: /api/volunteer/forms/4/
+WARNING 2026-04-24 13:21:19,273 log Not Found: /api/api/universities/majors/
+WARNING 2026-04-24 13:22:38,053 log Not Found: /api/api/universities/majors/
+WARNING 2026-04-24 13:25:18,911 log Not Found: /api/majors/
+INFO 2026-04-24 13:36:16,666 autoreload Watching for file changes with StatReloader
+INFO 2026-04-24 13:37:51,519 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\universities\views.py changed, reloading.
+INFO 2026-04-24 13:37:53,284 autoreload Watching for file changes with StatReloader
+INFO 2026-04-24 13:38:38,643 autoreload Watching for file changes with StatReloader
+INFO 2026-04-24 16:32:55,807 autoreload Watching for file changes with StatReloader
+WARNING 2026-04-24 16:33:24,981 log Forbidden: /api/system/logs/
+INFO 2026-04-24 16:35:11,522 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\system\views.py changed, reloading.
+INFO 2026-04-24 16:35:13,798 autoreload Watching for file changes with StatReloader
+INFO 2026-04-24 16:35:33,431 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\system\views.py changed, reloading.
+INFO 2026-04-24 16:35:35,434 autoreload Watching for file changes with StatReloader
+INFO 2026-04-24 16:36:15,103 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\system\views.py changed, reloading.
+INFO 2026-04-24 16:36:17,105 autoreload Watching for file changes with StatReloader
+INFO 2026-04-24 16:39:10,521 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\system\views.py changed, reloading.
+INFO 2026-04-24 16:39:12,422 autoreload Watching for file changes with StatReloader
+INFO 2026-04-24 16:39:35,671 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\system\views.py changed, reloading.
+INFO 2026-04-24 16:39:38,113 autoreload Watching for file changes with StatReloader
+ERROR 2026-04-24 17:13:05,735 log Internal Server Error: /api/recommendation/recommend/smart_match/
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\views.py", line 94, in smart_match
+    log_operation(request.user, '智能推荐', '推荐系统',
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                  f'执行智能匹配推荐，分数{data["score"]}，{data["province"]}',
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                  request.META.get('REMOTE_ADDR', ''))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\system\middleware.py", line 10, in log_operation
+    OperationLog.objects.create(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        user=user if user and user.is_authenticated else None,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        ip_address=ip_address
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\db\models\query.py", line 667, in create
+    obj = self.model(**kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\db\models\base.py", line 590, in __init__
+    raise TypeError(
+    ...<2 lines>...
+    )
+TypeError: OperationLog() got unexpected keyword arguments: 'content'
+ERROR 2026-04-24 17:13:10,109 log Internal Server Error: /api/recommendation/recommend/smart_match/
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\views.py", line 94, in smart_match
+    log_operation(request.user, '智能推荐', '推荐系统',
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                  f'执行智能匹配推荐，分数{data["score"]}，{data["province"]}',
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                  request.META.get('REMOTE_ADDR', ''))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\system\middleware.py", line 10, in log_operation
+    OperationLog.objects.create(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        user=user if user and user.is_authenticated else None,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        ip_address=ip_address
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\db\models\query.py", line 667, in create
+    obj = self.model(**kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\db\models\base.py", line 590, in __init__
+    raise TypeError(
+    ...<2 lines>...
+    )
+TypeError: OperationLog() got unexpected keyword arguments: 'content'
+ERROR 2026-04-24 17:13:15,492 log Internal Server Error: /api/recommendation/recommend/smart_match/
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\views.py", line 94, in smart_match
+    log_operation(request.user, '智能推荐', '推荐系统',
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                  f'执行智能匹配推荐，分数{data["score"]}，{data["province"]}',
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                  request.META.get('REMOTE_ADDR', ''))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\system\middleware.py", line 10, in log_operation
+    OperationLog.objects.create(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        user=user if user and user.is_authenticated else None,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        ip_address=ip_address
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\db\models\query.py", line 667, in create
+    obj = self.model(**kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\db\models\base.py", line 590, in __init__
+    raise TypeError(
+    ...<2 lines>...
+    )
+TypeError: OperationLog() got unexpected keyword arguments: 'content'
+WARNING 2026-04-24 17:13:30,033 log Bad Request: /api/recommendation/recommend/smart_match/
+ERROR 2026-04-24 17:13:36,644 log Internal Server Error: /api/recommendation/recommend/smart_match/
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\views.py", line 94, in smart_match
+    log_operation(request.user, '智能推荐', '推荐系统',
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                  f'执行智能匹配推荐，分数{data["score"]}，{data["province"]}',
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                  request.META.get('REMOTE_ADDR', ''))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\system\middleware.py", line 10, in log_operation
+    OperationLog.objects.create(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        user=user if user and user.is_authenticated else None,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        ip_address=ip_address
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\db\models\query.py", line 667, in create
+    obj = self.model(**kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\db\models\base.py", line 590, in __init__
+    raise TypeError(
+    ...<2 lines>...
+    )
+TypeError: OperationLog() got unexpected keyword arguments: 'content'
+INFO 2026-04-24 17:15:10,459 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\universities\views.py changed, reloading.
+INFO 2026-04-24 17:15:12,489 autoreload Watching for file changes with StatReloader
+INFO 2026-04-24 17:16:17,566 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\universities\views.py changed, reloading.
+INFO 2026-04-24 17:16:19,398 autoreload Watching for file changes with StatReloader
+ERROR 2026-04-24 17:17:48,768 log Internal Server Error: /api/recommendation/recommend/smart_match/
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\views.py", line 94, in smart_match
+    log_operation(request.user, '智能推荐', '推荐系统',
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                  f'执行智能匹配推荐，分数{data["score"]}，{data["province"]}',
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                  request.META.get('REMOTE_ADDR', ''))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\system\middleware.py", line 10, in log_operation
+    OperationLog.objects.create(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        user=user if user and user.is_authenticated else None,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        ip_address=ip_address
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\db\models\query.py", line 667, in create
+    obj = self.model(**kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\db\models\base.py", line 590, in __init__
+    raise TypeError(
+    ...<2 lines>...
+    )
+TypeError: OperationLog() got unexpected keyword arguments: 'content'
+ERROR 2026-04-24 17:18:12,736 log Internal Server Error: /api/recommendation/recommend/smart_match/
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\views.py", line 94, in smart_match
+    log_operation(request.user, '智能推荐', '推荐系统',
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                  f'执行智能匹配推荐，分数{data["score"]}，{data["province"]}',
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                  request.META.get('REMOTE_ADDR', ''))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\system\middleware.py", line 10, in log_operation
+    OperationLog.objects.create(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        user=user if user and user.is_authenticated else None,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        ip_address=ip_address
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\db\models\query.py", line 667, in create
+    obj = self.model(**kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\db\models\base.py", line 590, in __init__
+    raise TypeError(
+    ...<2 lines>...
+    )
+TypeError: OperationLog() got unexpected keyword arguments: 'content'
+ERROR 2026-04-24 17:18:16,684 log Internal Server Error: /api/recommendation/recommend/smart_match/
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\views.py", line 94, in smart_match
+    log_operation(request.user, '智能推荐', '推荐系统',
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                  f'执行智能匹配推荐，分数{data["score"]}，{data["province"]}',
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                  request.META.get('REMOTE_ADDR', ''))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\system\middleware.py", line 10, in log_operation
+    OperationLog.objects.create(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        user=user if user and user.is_authenticated else None,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        ip_address=ip_address
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\db\models\query.py", line 667, in create
+    obj = self.model(**kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\db\models\base.py", line 590, in __init__
+    raise TypeError(
+    ...<2 lines>...
+    )
+TypeError: OperationLog() got unexpected keyword arguments: 'content'
+ERROR 2026-04-24 17:19:08,376 log Internal Server Error: /api/recommendation/recommend/smart_match/
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\views.py", line 94, in smart_match
+    log_operation(request.user, '智能推荐', '推荐系统',
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                  f'执行智能匹配推荐，分数{data["score"]}，{data["province"]}',
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                  request.META.get('REMOTE_ADDR', ''))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\system\middleware.py", line 10, in log_operation
+    OperationLog.objects.create(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        user=user if user and user.is_authenticated else None,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        ip_address=ip_address
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\db\models\query.py", line 667, in create
+    obj = self.model(**kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\db\models\base.py", line 590, in __init__
+    raise TypeError(
+    ...<2 lines>...
+    )
+TypeError: OperationLog() got unexpected keyword arguments: 'content'
+ERROR 2026-04-24 17:19:56,909 log Internal Server Error: /api/recommendation/recommend/smart_match/
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\views.py", line 94, in smart_match
+    log_operation(request.user, '智能推荐', '推荐系统',
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                  f'执行智能匹配推荐，分数{data["score"]}，{data["province"]}',
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                  request.META.get('REMOTE_ADDR', ''))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\system\middleware.py", line 10, in log_operation
+    OperationLog.objects.create(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        user=user if user and user.is_authenticated else None,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        ip_address=ip_address
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\db\models\query.py", line 667, in create
+    obj = self.model(**kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\db\models\base.py", line 590, in __init__
+    raise TypeError(
+    ...<2 lines>...
+    )
+TypeError: OperationLog() got unexpected keyword arguments: 'content'
+INFO 2026-04-24 17:23:28,577 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\system\middleware.py changed, reloading.
+INFO 2026-04-24 17:23:30,665 autoreload Watching for file changes with StatReloader
+INFO 2026-04-24 17:23:53,786 autoreload Watching for file changes with StatReloader
+WARNING 2026-04-24 17:26:31,239 log Bad Request: /api/recommendation/recommend/smart_match/
+WARNING 2026-04-24 17:27:54,362 log Bad Request: /api/recommendation/recommend/smart_match/
+INFO 2026-04-24 18:08:30,279 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\universities\models.py changed, reloading.
+INFO 2026-04-24 18:08:32,551 autoreload Watching for file changes with StatReloader
+INFO 2026-04-24 18:11:04,913 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\universities\serializers.py changed, reloading.
+INFO 2026-04-24 18:11:06,544 autoreload Watching for file changes with StatReloader
+INFO 2026-04-24 18:31:04,744 autoreload Watching for file changes with StatReloader
+INFO 2026-04-24 18:33:58,978 autoreload Watching for file changes with StatReloader
+INFO 2026-04-24 18:48:58,942 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\universities\serializers.py changed, reloading.
+INFO 2026-04-24 18:49:00,971 autoreload Watching for file changes with StatReloader
+ERROR 2026-04-24 18:53:15,845 log Internal Server Error: /api/universities/list/2/
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\mixins.py", line 56, in retrieve
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 585, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\fields.py", line 1929, in to_representation
+    return method(value)
+  File "C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\universities\serializers.py", line 71, in get_recent_scores
+    return AdmissionScoreSerializer(scores, many=True).data
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 537, in to_representation
+    for field in fields:
+                 ^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 398, in _readable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 386, in fields
+    for key, value in self.get_fields().items():
+                      ~~~~~~~~~~~~~~~^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 1101, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 1204, in get_field_names
+    assert field_name in fields, (
+           ^^^^^^^^^^^^^^^^^^^^
+AssertionError: The field 'major_discipline_eval' was declared on serializer AdmissionScoreSerializer, but has not been included in the 'fields' option.
+ERROR 2026-04-24 18:53:24,568 log Internal Server Error: /api/universities/list/2/
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\mixins.py", line 56, in retrieve
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 585, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\fields.py", line 1929, in to_representation
+    return method(value)
+  File "C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\universities\serializers.py", line 71, in get_recent_scores
+    return AdmissionScoreSerializer(scores, many=True).data
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 537, in to_representation
+    for field in fields:
+                 ^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 398, in _readable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 386, in fields
+    for key, value in self.get_fields().items():
+                      ~~~~~~~~~~~~~~~^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 1101, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 1204, in get_field_names
+    assert field_name in fields, (
+           ^^^^^^^^^^^^^^^^^^^^
+AssertionError: The field 'major_discipline_eval' was declared on serializer AdmissionScoreSerializer, but has not been included in the 'fields' option.
+ERROR 2026-04-24 18:56:05,104 log Internal Server Error: /api/universities/list/27/
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\mixins.py", line 56, in retrieve
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 585, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\fields.py", line 1929, in to_representation
+    return method(value)
+  File "C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\universities\serializers.py", line 71, in get_recent_scores
+    return AdmissionScoreSerializer(scores, many=True).data
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 537, in to_representation
+    for field in fields:
+                 ^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 398, in _readable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 386, in fields
+    for key, value in self.get_fields().items():
+                      ~~~~~~~~~~~~~~~^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 1101, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 1204, in get_field_names
+    assert field_name in fields, (
+           ^^^^^^^^^^^^^^^^^^^^
+AssertionError: The field 'major_discipline_eval' was declared on serializer AdmissionScoreSerializer, but has not been included in the 'fields' option.
+ERROR 2026-04-24 18:57:11,285 log Internal Server Error: /api/universities/list/27/
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\mixins.py", line 56, in retrieve
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 585, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\fields.py", line 1929, in to_representation
+    return method(value)
+  File "C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\universities\serializers.py", line 71, in get_recent_scores
+    return AdmissionScoreSerializer(scores, many=True).data
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 537, in to_representation
+    for field in fields:
+                 ^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 398, in _readable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 386, in fields
+    for key, value in self.get_fields().items():
+                      ~~~~~~~~~~~~~~~^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 1101, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 1204, in get_field_names
+    assert field_name in fields, (
+           ^^^^^^^^^^^^^^^^^^^^
+AssertionError: The field 'major_discipline_eval' was declared on serializer AdmissionScoreSerializer, but has not been included in the 'fields' option.
+INFO 2026-04-24 19:00:47,060 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\universities\serializers.py changed, reloading.
+INFO 2026-04-24 19:00:49,142 autoreload Watching for file changes with StatReloader
+INFO 2026-04-24 19:38:12,023 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\universities\serializers.py changed, reloading.
+INFO 2026-04-24 19:38:13,681 autoreload Watching for file changes with StatReloader
+INFO 2026-04-24 19:44:00,156 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\engine.py changed, reloading.
+INFO 2026-04-24 19:44:01,512 autoreload Watching for file changes with StatReloader
+INFO 2026-04-24 19:48:43,032 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\universities\serializers.py changed, reloading.
+INFO 2026-04-24 19:48:44,546 autoreload Watching for file changes with StatReloader
+INFO 2026-04-24 19:49:26,178 autoreload Watching for file changes with StatReloader
+INFO 2026-04-24 19:50:34,283 autoreload C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\recommendation\engine.py changed, reloading.
+INFO 2026-04-24 19:50:35,699 autoreload Watching for file changes with StatReloader
+ERROR 2026-04-24 19:55:03,661 log Internal Server Error: /api/universities/list/240/
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\mixins.py", line 56, in retrieve
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 585, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\fields.py", line 1929, in to_representation
+    return method(value)
+  File "C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\universities\serializers.py", line 71, in get_recent_scores
+    return AdmissionScoreSerializer(scores, many=True).data
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 537, in to_representation
+    for field in fields:
+                 ^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 398, in _readable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 386, in fields
+    for key, value in self.get_fields().items():
+                      ~~~~~~~~~~~~~~~^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 1132, in get_fields
+    field_class, field_kwargs = self.build_field(
+                                ~~~~~~~~~~~~~~~~^
+        source, info, model, depth
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 1278, in build_field
+    return self.build_unknown_field(field_name, model_class)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 1396, in build_unknown_field
+    raise ImproperlyConfigured(
+    ...<2 lines>...
+    )
+django.core.exceptions.ImproperlyConfigured: Field name `type` is not valid for model `AdmissionScore` in `apps.universities.serializers.AdmissionScoreSerializer`.
+ERROR 2026-04-24 19:55:32,708 log Internal Server Error: /api/universities/list/240/
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\mixins.py", line 56, in retrieve
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 585, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\fields.py", line 1929, in to_representation
+    return method(value)
+  File "C:\Users\ASUS\Desktop\learn\毕业相关\gaokao_zhiyuan\backend\apps\universities\serializers.py", line 71, in get_recent_scores
+    return AdmissionScoreSerializer(scores, many=True).data
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 537, in to_representation
+    for field in fields:
+                 ^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 398, in _readable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 386, in fields
+    for key, value in self.get_fields().items():
+                      ~~~~~~~~~~~~~~~^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 1132, in get_fields
+    field_class, field_kwargs = self.build_field(
+                                ~~~~~~~~~~~~~~~~^
+        source, info, model, depth
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 1278, in build_field
+    return self.build_unknown_field(field_name, model_class)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Roaming\Python\Python314\site-packages\rest_framework\serializers.py", line 1396, in build_unknown_field
+    raise ImproperlyConfigured(
+    ...<2 lines>...
+    )
+django.core.exceptions.ImproperlyConfigured: Field name `type` is not valid for model `AdmissionScore` in `apps.universities.serializers.AdmissionScoreSerializer`.
+INFO 2026-04-24 20:00:38,143 autoreload Watching for file changes with StatReloader
+WARNING 2026-04-24 20:15:52,253 log Bad Request: /api/users/manage/
+WARNING 2026-04-24 20:15:57,257 log Bad Request: /api/users/manage/
+WARNING 2026-04-24 20:35:34,532 log Bad Request: /api/users/manage/1/
+WARNING 2026-04-24 20:35:44,759 log Bad Request: /api/users/manage/1/
+INFO 2026-04-24 21:02:53,384 autoreload Watching for file changes with StatReloader

@@ -1,0 +1,4 @@
+# 忽略前端依赖包
+node_modules/
+frontend/node_modules/
+backend/data/
