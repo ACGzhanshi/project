@@ -11,16 +11,15 @@ def calculate_probability(user_score, ref_score):
     """优化后的概率算法：扩大低分段覆盖面"""
     diff = user_score - ref_score
     if diff >= 25: return min(98.0, 85 + diff * 0.4)
-    if diff >= 0: return 50 + diff * 1.4  # 分数持平即有 50% 概率，属于“稳”
-    if diff >= -20: return 20 + (diff + 20) * 1.5 # 分差在 -20 内都有机会“冲”
+    if diff >= 0: return 50 + diff * 1.4
+    if diff >= -20: return 20 + (diff + 20) * 1.5
     return max(2.0, 10 + diff * 0.5)
 
 
 def get_recommendations(score, province, subject_type, subjects='', interest_majors=''):
-    """获取冲稳保推荐院校 """
+    """获取冲稳保推荐院校 (🚀 极致性能优化版)"""
     clean_province = province.replace('省', '').replace('市', '').replace('自治区', '').replace('壮族', '')
 
-    # 1. 放弃精确匹配，直接开启“字眼核爆搜索”
     subj_q = Q()
     if '理' in subject_type or '物' in subject_type:
         subj_q = Q(subject_type__icontains='理') | Q(subject_type__icontains='物') | Q(subject_type__icontains='理工')
@@ -29,7 +28,6 @@ def get_recommendations(score, province, subject_type, subjects='', interest_maj
     else:
         subj_q = Q(subject_type__icontains=subject_type)
 
-    # 2. 移除 min_score 限制，防止因数据类型异常导致过滤
     recent_scores = AdmissionScore.objects.filter(
         Q(province__icontains=clean_province),
         subj_q,
@@ -39,16 +37,14 @@ def get_recommendations(score, province, subject_type, subjects='', interest_maj
         absolute_min=Min('min_score')
     )
 
-    # 3. 🚨 独家诊断拦截器：让数据库自己开口说话！
     if not recent_scores.exists():
         sample = AdmissionScore.objects.filter(province__icontains=clean_province).first()
         if sample:
-            error_msg = (
+            raise ValueError(
                 f"【拦截诊断】查到了 {clean_province} 的数据，但科类对不上！\n"
                 f"你选的是：'{subject_type}'\n"
                 f"但数据库里这条数据的 科类 竟然写的是：'{sample.subject_type}'！"
             )
-            raise ValueError(error_msg)
         else:
             raise ValueError(
                 f"【拦截诊断】连一条 {clean_province} 的数据都没查到！请确认表里的省份列是不是存成了拼音或地区代码。")
@@ -57,83 +53,17 @@ def get_recommendations(score, province, subject_type, subjects='', interest_maj
     stable_list = []
     safe_list = []
 
+    # 🚀 性能优化 1：仅在内存中进行概率计算和分级，暂时不碰数据库！
     for item in recent_scores:
         ref_score = (float(item['avg_min']) * 0.7) + (float(item['absolute_min']) * 0.3)
         prob = calculate_probability(score, ref_score)
 
-        try:
-            uni = University.objects.get(id=item['university_id'])
-        except University.DoesNotExist:
-            continue
-
         rec = {
-            'university_id': uni.id,
-            'university_name': uni.name,
-            'province': uni.province,
-            'level': uni.level,
-            'is_985': uni.is_985,
-            'is_211': uni.is_211,
+            'university_id': item['university_id'],
             'avg_min_score': int(item['avg_min']),
             'probability': round(prob, 1),
-            'employment_rate': float(uni.employment_rate) if uni.employment_rate else None,
+            'level': ''
         }
-
-        # ================== 修复后的真实专业推荐逻辑 ==================
-        # 复用上面的 clean_province 和 subj_q，确保专业分数的查询同样具备超强兼容性
-        valid_major_scores = AdmissionScore.objects.filter(
-            Q(province__icontains=clean_province),
-            subj_q,
-            university=uni,
-            year__gte=2022,
-            major__isnull=False
-        ).values('major_id').annotate(
-            major_avg_min=Avg('min_score')
-        )  # 🚨 删除了这里原本的 .order_by('-major_avg_min')[:5]
-
-        major_list = []
-
-        if valid_major_scores:
-            # 1. 遍历该校所有的专业，计算每一个的录取概率
-            for m_item in valid_major_scores:
-                try:
-                    m = Major.objects.get(id=m_item['major_id'])
-                    m_prob = calculate_probability(score, float(m_item['major_avg_min']))
-
-                    major_list.append({
-                        'major_id': m.id,
-                        'major_name': m.name,
-                        'category': m.category,
-                        'employment_rate': float(m.employment_rate) if m.employment_rate else None,
-                        'avg_salary': m.avg_salary,
-                        # 🚨 核心修改 1：提取并透传学科评估等级
-                        'discipline_eval': m.discipline_eval or '',
-                        'probability': round(m_prob, 1),
-                        'real_min_score': int(m_item['major_avg_min'])
-                    })
-                except Major.DoesNotExist:
-                    continue
-
-            # 2. 🚨 核心修复：在内存中按“录取概率”从高到低排序，只取前 5 个最稳的专业！
-            major_list.sort(key=lambda x: x['probability'], reverse=True)
-            major_list = major_list[:5]
-
-        else:
-            # 兜底方案
-            uni_majors = Major.objects.filter(university=uni).order_by('-employment_rate')[:5]
-            for m in uni_majors:
-                major_list.append({
-                    'major_id': m.id,
-                    'major_name': f"{m.name} (本省暂无专业录取数据)",
-                    'category': m.category,
-                    'employment_rate': float(m.employment_rate) if m.employment_rate else None,
-                    'avg_salary': m.avg_salary,
-                    # 🚨 核心修改 2：兜底方案中也需透传学科评估等级
-                    'discipline_eval': m.discipline_eval or '',
-                    'probability': 0,
-                })
-
-        rec['majors'] = major_list
-        # ==============================================================
 
         if 15 <= prob < 45:
             rec['level'] = 'rush'
@@ -145,14 +75,90 @@ def get_recommendations(score, province, subject_type, subjects='', interest_maj
             rec['level'] = 'safe'
             safe_list.append(rec)
 
+    # 🚀 性能优化 2：在查询庞大的专业数据前，先排序并截取最终需要展示的 30 所学校
     rush_list.sort(key=lambda x: x['probability'], reverse=True)
     stable_list.sort(key=lambda x: x['probability'], reverse=True)
     safe_list.sort(key=lambda x: x['probability'], reverse=True)
 
+    rush_top = rush_list[:10]
+    stable_top = stable_list[:10]
+    safe_top = safe_list[:10]
+
+    final_candidates = rush_top + stable_top + safe_top
+
+    # 🚀 性能优化 3：批量查询！仅为这入围的 30 所学校查详细信息，彻底杜绝 N+1 灾难
+    uni_ids = [c['university_id'] for c in final_candidates]
+    unis_dict = {u.id: u for u in University.objects.filter(id__in=uni_ids)}
+
+    def populate_details(candidates):
+        result = []
+        for c in candidates:
+            uni = unis_dict.get(c['university_id'])
+            if not uni:
+                continue
+
+            c['university_name'] = uni.name
+            c['province'] = uni.province
+            c['level'] = uni.level
+            c['is_985'] = uni.is_985
+            c['is_211'] = uni.is_211
+            c['employment_rate'] = float(uni.employment_rate) if uni.employment_rate else None
+
+            # 仅查这一所大学的聚合分数
+            valid_major_scores = AdmissionScore.objects.filter(
+                Q(province__icontains=clean_province),
+                subj_q,
+                university=uni,
+                year__gte=2022,
+                major__isnull=False
+            ).values('major_id').annotate(
+                major_avg_min=Avg('min_score')
+            )
+
+            major_list = []
+            if valid_major_scores:
+                # 再次批量查询专业实体
+                major_ids = [m['major_id'] for m in valid_major_scores]
+                majors_dict = {m.id: m for m in Major.objects.filter(id__in=major_ids)}
+
+                for m_item in valid_major_scores:
+                    m = majors_dict.get(m_item['major_id'])
+                    if m:
+                        m_prob = calculate_probability(score, float(m_item['major_avg_min']))
+                        major_list.append({
+                            'major_id': m.id,
+                            'major_name': m.name,
+                            'category': m.category,
+                            'employment_rate': float(m.employment_rate) if m.employment_rate else None,
+                            'avg_salary': m.avg_salary,
+                            'discipline_eval': m.discipline_eval or '',
+                            'probability': round(m_prob, 1),
+                            'real_min_score': int(m_item['major_avg_min'])
+                        })
+
+                major_list.sort(key=lambda x: x['probability'], reverse=True)
+                major_list = major_list[:5]
+            else:
+                uni_majors = Major.objects.filter(university=uni).order_by('-employment_rate')[:5]
+                for m in uni_majors:
+                    major_list.append({
+                        'major_id': m.id,
+                        'major_name': f"{m.name} (本省暂无专业录取数据)",
+                        'category': m.category,
+                        'employment_rate': float(m.employment_rate) if m.employment_rate else None,
+                        'avg_salary': m.avg_salary,
+                        'discipline_eval': m.discipline_eval or '',
+                        'probability': 0,
+                    })
+
+            c['majors'] = major_list
+            result.append(c)
+        return result
+
     return {
-        'rush': rush_list[:10],
-        'stable': stable_list[:10],
-        'safe': safe_list[:10],
+        'rush': populate_details(rush_top),
+        'stable': populate_details(stable_top),
+        'safe': populate_details(safe_top),
     }
 
 
@@ -196,3 +202,36 @@ def qianwen_analyze(score, province, recommendations, assessment_data=None):
         return '智能分析暂时不可用，请稍后再试。'
     except Exception as e:
         return f'智能分析服务异常：{str(e)}'
+
+
+def generic_qianwen_chat(user_message, system_context=""):
+    """通用的千问上下文对话接口"""
+    try:
+        messages = []
+        # 将当前页面的数据作为“系统上下文”悄悄塞给大模型
+        if system_context:
+            messages.append({
+                'role': 'system',
+                'content': f"你是一个资深的高考志愿填报专家。当前用户正在浏览的页面数据如下，请结合这些信息回答问题：\n{system_context}"
+            })
+
+        messages.append({'role': 'user', 'content': user_message})
+
+        headers = {
+            'Authorization': f'Bearer {settings.QIANWEN_API_KEY}',
+            'Content-Type': 'application/json'
+        }
+        data = {
+            'model': settings.QIANWEN_MODEL,
+            'messages': messages,
+            'temperature': 0.7,
+            'max_tokens': 1500
+        }
+        resp = requests.post(settings.QIANWEN_API_URL, headers=headers, json=data, timeout=30)
+
+        if resp.status_code == 200:
+            result = resp.json()
+            return result['choices'][0]['message']['content']
+        return f'AI请求失败，状态码：{resp.status_code}'
+    except Exception as e:
+        return f'智能服务异常：{str(e)}'

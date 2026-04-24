@@ -87,16 +87,18 @@
         <el-button type="primary" @click="handleAdd">确认添加</el-button>
       </template>
     </el-dialog>
+    <AiChatBox :pageContext="aiContext" />
   </div>
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, computed } from 'vue'
 import { useRoute } from 'vue-router'
 import { getFormDetail, analyzeForm, addItem, removeItem } from '@/api/volunteer'
 import { getUniversityList } from '@/api/university'
 import request from '@/utils/request' // 引入全局请求工具用于获取全量专业
 import { ElMessage } from 'element-plus'
+import AiChatBox from '@/components/AiChatBox.vue'
 
 const route = useRoute()
 const loading = ref(true)
@@ -112,6 +114,32 @@ const addForm = ref({ university: null, major: null })
 
 const levelLabel = { rush: '冲', stable: '稳', safe: '保' }
 const levelType = { rush: 'danger', stable: 'warning', safe: 'success' }
+const aiContext = computed(() => {
+  if (!form.value.name) return ''
+
+  let contextText = `当前用户正在查看或编辑名为【${form.value.name}】的志愿表。
+基本信息：高考分数 ${form.value.score} 分，考区 ${form.value.province}，科类 ${form.value.subject_type}。
+当前已填报的志愿列表如下：\n`
+
+  if (items.value.length === 0) {
+    contextText += "（暂未添加任何志愿）\n"
+  } else {
+    items.value.forEach(item => {
+      const uniName = item.university?.name || item.university_name || '未知院校'
+      const majorName = item.major?.name || item.major_name || '未定专业'
+      const levelText = levelLabel[item.level] || '未知'
+      contextText += `- ${uniName} (${majorName}) [系统评估: ${levelText}]\n`
+    })
+  }
+
+  if (analysis.value && analysis.value.suggestions) {
+    contextText += `\n系统已对该表进行过初步的合理性分析，系统的建议是：\n${analysis.value.suggestions.join('\n')}`
+  }
+
+  contextText += `\n请结合以上考生的分数和已填报的院校，为用户的志愿填报策略、梯度安排、专业选择风险等提供专业的建议和解答。回答尽量简明扼要。`
+  return contextText
+})
+
 
 async function fetchDetail() {
   try {
@@ -195,6 +223,7 @@ async function handleRemove(itemId) {
   ElMessage.success('删除成功')
   fetchDetail()
 }
+
 
 onMounted(fetchDetail)
 </script>

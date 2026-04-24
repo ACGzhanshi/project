@@ -5,7 +5,10 @@ from rest_framework import viewsets, status
 from rest_framework.decorators import action
 from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated
-
+from .engine import generic_qianwen_chat
+from rest_framework.decorators import api_view, permission_classes
+from rest_framework.permissions import AllowAny
+from rest_framework.response import Response
 
 from .models import RecommendRecord, AssessmentQuestion, AssessmentResult
 from .serializers import (
@@ -236,3 +239,17 @@ class AssessmentViewSet(viewsets.GenericViewSet):
         ).order_by('-created_at')
         serializer = AssessmentResultSerializer(results, many=True)
         return Response({'code': 200, 'data': serializer.data})
+
+
+@api_view(['POST'])
+@permission_classes([AllowAny])
+def ai_chat(request):
+    """处理前端的 AI 聊天请求"""
+    message = request.data.get('message')
+    context = request.data.get('context', '')
+
+    if not message:
+        return Response({'code': 400, 'message': '请输入您的问题'}, status=400)
+
+    reply = generic_qianwen_chat(message, context)
+    return Response({'code': 200, 'data': {'reply': reply}})

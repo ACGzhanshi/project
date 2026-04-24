@@ -193,6 +193,7 @@
         </div>
       </el-tab-pane>
     </el-tabs>
+    <AiChatBox :pageContext="aiContext" />
   </div>
 </template>
 
@@ -209,6 +210,7 @@ import {
 import { ElMessage } from 'element-plus'
 import * as echarts from 'echarts'
 import { Search } from '@element-plus/icons-vue'
+import AiChatBox from '@/components/AiChatBox.vue'
 
 const route = useRoute()
 const loading = ref(false)
@@ -223,6 +225,13 @@ const evalWeight = {
   'B+': 6, 'B': 5, 'B-': 4,
   'C+': 3, 'C': 2, 'C-': 1
 }
+const aiContext = computed(() => {
+  if (!uni.value.name) return ''
+  return `当前用户正在查看【${uni.value.name}】的详情。
+基本信息：代码 ${uni.value.code}，位于 ${uni.value.province}${uni.value.city}，排名 ${uni.value.ranking}，就业率 ${uni.value.employment_rate}%。
+优势标签：985(${uni.value.is_985})，211(${uni.value.is_211})。
+（如果用户问到录取分数，你可以根据你自己的知识库，结合该校在 ${scoreQuery.province || '各省'} 的大概录取分进行回答）。`
+})
 const sortEval = (a, b) => {
   const weightA = evalWeight[a.major_discipline_eval] || 0
   const weightB = evalWeight[b.major_discipline_eval] || 0
